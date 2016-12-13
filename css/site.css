@@ -1,0 +1,14 @@
+body { 
+    background: url('../images/bg3.jpg') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
+tr:nth-child(odd) {
+  background-color: #def;
+}
+tr:nth-child(even) {
+  background-color: #FFFFC6;
+}
